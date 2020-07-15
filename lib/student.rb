@@ -30,6 +30,7 @@ class Student
   
   def self.drop_table
     
+    sql = DROP TABLE 
     
     
     DB[:conn].execute(sql)
