@@ -16,9 +16,10 @@ class Student
     sql = <<-SQL 
       CREATE TABLE (
       id INTEGER PRIMARY KEY,
-      students TEXT
+      students NAME,
       );
-  
+      SQL
+      
   end 
   
   def self.drop_table 
