@@ -39,6 +39,7 @@ class Student
   
   def sav
     sql = <<-SQL 
+    INSERT INTO students (name, grade)
     
     SQL
   
