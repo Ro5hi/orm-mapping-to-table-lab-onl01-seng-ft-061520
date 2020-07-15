@@ -19,6 +19,7 @@ class Student
       students NAME,
       );
       SQL
+      DB[:conn].execute(sql)
       
   end 
   
